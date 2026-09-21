@@ -225,11 +225,11 @@ def get_build_info(
             f"requested={build}, actual={data.get('id')}"
         )
 
-    if data.get("channel") != "STABLE":
-        raise RuntimeError(
-            f"STABLEではないためダウンロードを中止します: "
-            f"{data.get('channel')}"
-        )
+    # if data.get("channel") != "STABLE":
+    #     raise RuntimeError(
+    #         f"STABLEではないためダウンロードを中止します: "
+    #         f"{data.get('channel')}"
+    #     )
 
     downloads = data.get("downloads", {})
     server = downloads.get("server:default", {})
