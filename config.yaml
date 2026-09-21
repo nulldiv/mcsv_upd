@@ -1,6 +1,6 @@
 paper_path: 'D:\Minecraft\server.jar'
 log_path: 'D:\Minecraft\paper-updater.log'
-user_agent: 'PaperAutoUpdater/1.0'
+user_agent: 'PaperAutoUpdater/1.0 ([mcsv_upd](https://github.com/nulldiv/mcsv_upd))'
 
 # 現在インストールされているPaper
 current_version: null
