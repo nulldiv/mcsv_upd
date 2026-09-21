@@ -90,6 +90,10 @@ def setup_logger(log_path: Path) -> logging.Logger:
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
+    stream_handler = logging.StreamHandler(sys.stdout)
+    stream_handler.setLevel(logging.DEBUG)
+    logger.addHandler(stream_handler)
+
     return logger
 
 
