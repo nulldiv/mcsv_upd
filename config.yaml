@@ -1,0 +1,7 @@
+paper_path: 'D:\Minecraft\server.jar'
+log_path: 'D:\Minecraft\paper-updater.log'
+user_agent: 'PaperAutoUpdater/1.0'
+
+# 現在インストールされているPaper
+current_version: null
+current_build: null
