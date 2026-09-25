@@ -19,7 +19,7 @@ import yaml
 
 CONFIG_PATH = Path(__file__).with_name("config.yaml")
 
-VERSIONS_API = "https://fill.papermc.io/v3/projects/paper/versions"
+VERSIONS_API = "https://fill.papermc.io/v3/projects/velocity/versions"
 
 # 正式リリースのみを対象とする
 #

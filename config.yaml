@@ -1,6 +1,6 @@
-paper_path: 'D:\Minecraft\server.jar'
-log_path: 'D:\Minecraft\paper-updater.log'
+paper_path: 'D:\Proxy\velocity.jar'
+log_path: 'D:\Proxy\velocity-updater.log'
 
 # 現在インストールされているPaper
-current_version: null
-current_build: null
+last_downloaded_version: null
+last_downloaded_build: null
